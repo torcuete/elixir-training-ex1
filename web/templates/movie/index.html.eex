@@ -1,0 +1,7 @@
+<div>
+  <h2>Listing movies</h2>
+  <ul class="movies">
+    <li>Rambo</li>
+  </ul>
+  <a class="new-movie" href="/movies/new"></a>
+</div>
