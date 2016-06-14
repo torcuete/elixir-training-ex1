@@ -5,5 +5,5 @@
       <li><%= link movie.title, to: movie_path(@conn, :show, movie.id) %></li>
     <% end %>
   </ul>
-  <a class="new-movie" href="/movies/new">New movie</a>
+  <%= link "New movie", to: movie_path(@conn, :new), class: "new-movie" %>
 </div>
