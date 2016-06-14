@@ -17,9 +17,8 @@ defmodule Ex1.Router do
     pipe_through :browser # Use the default browser stack
 
     post "/populator", PopulatorController, :populate
-    get "/movie", MovieController, :index
 
-    # resources "/movies", MovieController
+    resources "/movies", MovieController
   end
 
   # Other scopes may use custom stacks.
